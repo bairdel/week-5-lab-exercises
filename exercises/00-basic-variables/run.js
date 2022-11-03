@@ -1,12 +1,12 @@
 workingWithIntegers = function () {
-  const myNumber = 0;
+  const myNumber = 42;
   return myNumber;
 };
 
 workingWithIntegersArithmetic = function () {
 
   const numberOne = 10;
-  const numberTwo = 0;
+  const numberTwo = 10;
 
   return numberOne + numberTwo;
 };
@@ -14,13 +14,13 @@ workingWithIntegersArithmetic = function () {
 workingWithIntegersMultiplication = function () {
 
   const numberOne = 10;
-  const numberTwo = 0;
+  const numberTwo = 10;
 
   return numberOne * numberTwo;
 };
 
 workingWithStrings = function () {
-  const myString = "";
+  const myString = "I love potatoes";
   return myString;
 };
 
@@ -28,7 +28,7 @@ workingWithStrings = function () {
  * Pure integer arrays
  */
 workingWithIntArrays = function () {
-  const myArray = [];
+  const myArray = [ 1, 2, 34, 55, 666, 123412415 ];
   return myArray;
 };
 
@@ -36,7 +36,7 @@ workingWithIntArrays = function () {
  * Arrays can have mixed types in them
  */
 workingWithMixedArrays = function () {
-  const myArray = [];
+  const myArray = [ 1, 2, 123412415, "cabbages", 34, 55, 666 ];
   return myArray;
 };
 
@@ -44,7 +44,7 @@ workingWithMixedArrays = function () {
  * Javascript objects are cool
  */
 workingWithObjects = function () {
-  const myObject = {};
+  const myObject = {greeting: "Hello", age: 20, "city": "Liverpool"};
   return myObject;
 };
 
